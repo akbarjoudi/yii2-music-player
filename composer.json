@@ -1,0 +1,21 @@
+{
+    "name": "aki/yii2-music-player",
+    "description": "music player for yii2 web application",
+    "type": "yii2-extension",
+    "keywords": ["yii2","music-player"," music"," yii2-music-player"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "akbar",
+            "email": "akbar.joody@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "aki\\player\\": ""
+        }
+    }
+}
