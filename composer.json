@@ -12,7 +12,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/wavesurfer": "*"
+        "bower-asset/wavesurfer": "1.0.24"
     },
     "autoload": {
         "psr-4": {
