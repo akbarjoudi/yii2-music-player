@@ -14,7 +14,7 @@ Yii::setAlias('@akiPath', dirname(__FILE__));
  * @author asus
  */
 class MusicPlayerAsset extends \yii\web\AssetBundle{
-    public $sourcePath = '@akiPath/assets/';
+    public $sourcePath = '@akiPath/asset/';
     
     public $js = [
         'js/script.js'
