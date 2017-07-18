@@ -15,7 +15,11 @@ namespace aki\player;
  */
 class WavesurferAsset extends \yii\web\AssetBundle{
     public $sourcePath = '@bower/wavesurfer.js/dist';
-    public $css = [
-        'wavesurfer.min.js',
+    
+    public $js = [
+        'wavesurfer.min.js'
+    ];
+    public $depends = [
+        'yii\web\JqueryAsset'
     ];
 }

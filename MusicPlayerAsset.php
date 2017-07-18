@@ -7,14 +7,18 @@
  */
 
 namespace aki\player;
-
+Yii::setAlias('@akiPath', dirname(__FILE__));
 /**
  * Description of MusicPlayerAsset
  *
  * @author asus
  */
 class MusicPlayerAsset extends \yii\web\AssetBundle{
-//    public $sourcePath = '@bower/wavesurfer.js/dist';
+    public $sourcePath = '@akiPath/assets/';
+    
+    public $js = [
+        'js/script.js'
+    ];
     public $depends = [
         'yii\web\JqueryAsset'
     ];
