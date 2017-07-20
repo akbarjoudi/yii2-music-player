@@ -1,7 +1,12 @@
 <?php
 $baseUrl = $widget->view->assetBundles['aki\player\MusicPlayerAsset']->baseUrl;
+$options = $widget->options;
+if(!empty($options) && !is_array($options))
+{
+    throw new \yii\web\HttpException('options should be array !!', 500);
+}
 ?>
-<div id="container" class="disabled">
+<div id="container" class="disabled" style="width: <?= isset($options['width']) ? $options['width']:'0px' ?>;height: <?= isset($options['height']) ? $options['height']:'0px' ?>">
 
     <div id="cover-art">
         <div id="cover-art-big"></div>
