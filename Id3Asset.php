@@ -14,10 +14,14 @@ namespace aki\player;
  * @author asus
  */
 class Id3Asset extends \yii\web\AssetBundle{
-    public $source = "@bower/id3/dist";
+    public $sourcePath = "@bower/id3/dist";
     
     public $js = [
-      "id3.min.js",  
+      "id3-minimized.js",  
+    ];
+    
+    public $depends = [
+        'yii\web\JqueryAsset'
     ];
     
 }
