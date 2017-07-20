@@ -20,6 +20,10 @@ class MusicPlayerAsset extends \yii\web\AssetBundle{
         'js/id3-minimized.js',
         'js/script.js'
     ];
+    
+    public $css = [
+        'css/styles.css'
+    ];
     public $depends = [
         'yii\web\JqueryAsset'
     ];
