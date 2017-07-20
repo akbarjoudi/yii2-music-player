@@ -7,6 +7,7 @@ namespace aki\player;
  */
 class MusicPlayer extends \yii\base\Widget
 {
+    public $options;
     public function init() {  
         WavesurferAsset::register($this->view);
         MusicPlayerAsset::register($this->view);
