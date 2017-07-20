@@ -13,7 +13,7 @@
     "require": {
         "yiisoft/yii2": "*",
         "bower-asset/wavesurfer.js": "1.0.24",
-        "bower-asset/id3js": "*"
+        "bower-asset/d3": "~4.8.0"
     },
     "autoload": {
         "psr-4": {
