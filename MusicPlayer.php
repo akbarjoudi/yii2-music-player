@@ -10,7 +10,7 @@ class MusicPlayer extends \yii\base\Widget
     public function init() {  
         WavesurferAsset::register($this->view);
         MusicPlayerAsset::register($this->view);
-        FontAwesomeAsset::register($this);
+        FontAwesomeAsset::register($this->view);
     }
     public function run()
     {
