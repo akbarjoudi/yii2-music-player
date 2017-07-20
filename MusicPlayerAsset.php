@@ -7,7 +7,7 @@
  */
 
 namespace aki\player;
-Yii::setAlias('@akiPath', dirname(__FILE__));
+\Yii::setAlias('@akiPath', dirname(__FILE__));
 /**
  * Description of MusicPlayerAsset
  *
@@ -17,6 +17,7 @@ class MusicPlayerAsset extends \yii\web\AssetBundle{
     public $sourcePath = '@akiPath/asset/';
     
     public $js = [
+        'js/id3-minimized.js',
         'js/script.js'
     ];
     public $depends = [

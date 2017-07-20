@@ -1,8 +1,11 @@
+<?php
+$baseUrl = $widget->view->assetBundles['aki\player\MusicPlayerAsset']->baseUrl;
+?>
 <div id="container" class="disabled">
 
     <div id="cover-art">
         <div id="cover-art-big"></div>
-        <img id="cover-art-small" alt="cover-art-small" src="assets/img/default.png">
+        <img id="cover-art-small" alt="cover-art-small" src="<?= $baseUrl ?>/img/default.png">
         <div class="instructions">Drop your audio files here.</div>
     </div>
 
