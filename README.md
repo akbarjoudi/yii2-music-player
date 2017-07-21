@@ -29,3 +29,5 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?= \aki\player\MusicPlayer::widget(); ?>
+
+[demo](http://www.jqueryrain.com/?http://demo.tutorialzine.com/2015/03/html5-music-player/)
